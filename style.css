@@ -1,0 +1,67 @@
+        #message-lint {
+            position: absolute;
+            padding: 5px;
+            width: 150px;
+            top: 300px;
+
+        }
+        #container-lint {
+            border: 2px solid black;
+            width: 230px;
+            height: 330px;
+            padding: 10px;
+            overflow: hidden;
+            display: none;
+        }
+        #messages-lint {
+            height: 250px;
+            overflow: auto;
+        }
+        #submit-lint {
+            position: absolute;
+            background-color: blue;
+            border: none;
+            border-radius: 3px;
+            padding: 7px;
+            top: 300px;
+            left: 190px;
+        }
+        .bot-lint {
+            background-image: linear-gradient(98deg, black, rgb(53, 53, 53));
+            color: white;
+            transition: 1s;
+            padding: 6px;
+            width: 130px;
+        }
+        .user-lint {
+            background-image: linear-gradient(98deg, rgb(0, 231, 0), rgb(0, 255, 0));
+            padding: 6px;
+            width: 30px;
+            margin-left: 50px;
+            width: 140px;
+        }
+        #lintchat #bol-lint button{
+            border-radius: 3px;
+            border: none;
+            background-image: linear-gradient(98deg, black, gray);
+            color: white;
+            padding: 10px;
+            font-size: 20px;
+        }
+        #bol-lint {
+            position: absolute;
+            top: 90%;
+            left: 90%;
+            transition: 10s;
+        }
+        #bol-lint:hover {
+            background-color: white;
+            border: 2px solid black;
+            transition: 10s;
+        }
+        #x-lint {
+            position: absolute;
+            background-color: white;
+            border: none;
+            left: 200px;
+        }
