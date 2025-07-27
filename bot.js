@@ -6,13 +6,13 @@
         var messageinput = document.getElementById("message-lint")
         
         var primary = function(n) {
+                 container.style.display = "none";
             if (n === "n") {
                 var lint = document.createElement("div")
                 lint.id = "lintchat"
                 var container = document.createElement("div")
 
             }
-            container.style.display = "none";
         }
         primary();
         var sendMessage = function(font) {
