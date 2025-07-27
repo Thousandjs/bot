@@ -10,7 +10,7 @@
             if (n === "n") {
                 var lint = document.createElement("div")
                 lint.id = "lintchat"
-                var container = document.createElement("div")
+                var containers = document.createElement("div")
 
             }
         }
