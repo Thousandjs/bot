@@ -1,4 +1,5 @@
-var messages = document.getElementById("messages-lint")
+
+        var messages = document.getElementById("messages-lint")
         var container = document.getElementById("container-lint")
         var send = document.getElementById("submit-lint")
         var bol_button = document.getElementById("messages_bold")
@@ -7,8 +8,9 @@ var messages = document.getElementById("messages-lint")
         
         var primary = function() {
             var head = document.createElement("link")
-            link.href = "https://cdn.jsdelivr.net/gh/Thousandjs/bot@main/style.css"
-            link.rel = "stylesheet"
+            head.href = "https://cdn.jsdelivr.net/gh/Thousandjs/bot@74a5c47/style.css"
+            head.rel = "stylesheet"
+            document.head.appendChild(head)
         }
         primary();
         var sendMessage = function(font) {
