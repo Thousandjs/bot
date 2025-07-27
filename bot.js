@@ -1,4 +1,3 @@
-
         var messages = document.getElementById("messages-lint")
         var container = document.getElementById("container-lint")
         var send = document.getElementById("submit-lint")
@@ -6,13 +5,19 @@
         var close_bol = document.getElementById("x-lint")
         var messageinput = document.getElementById("message-lint")
         
-        var primary = function() {
+        var primary = function(n) {
+            if (n === "n") {
+                var lint = document.createElement("div")
+                lint.id = "lintchat"
+                var container = document.createElement("div")
+
+            }
             var head = document.createElement("link")
             head.href = "https://cdn.jsdelivr.net/gh/Thousandjs/bot@74a5c47/style.css"
             head.rel = "stylesheet"
             document.head.appendChild(head)
         }
-        primary();
+        primary("n");
         var sendMessage = function(font) {
             var message = document.createElement("p")
             message.className = "user-lint"
