@@ -88,6 +88,7 @@
         var bol = function() {
             window.location.href = "#"
             hash();
+            container.style.display = "block";
         }
         var close = function() {
             container.style.display = "none";
