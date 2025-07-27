@@ -4,7 +4,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="./style.css">
 </head>
 <body>
     <div id="lintchat">
@@ -27,7 +26,12 @@
         var bol_button = document.getElementById("messages_bold")
         var close_bol = document.getElementById("x-lint")
         var messageinput = document.getElementById("message-lint")
-
+        
+        var primary = function() {
+            var head = document.createElement("link")
+            link.href = "https://cdn.jsdelivr.net/gh/Thousandjs/bot@main/style.css"
+            link.rel = "stylesheet"
+        }
         var sendMessage = function(font) {
             var message = document.createElement("p")
             message.className = "user-lint"
