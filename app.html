@@ -29,8 +29,9 @@
         
         var primary = function() {
             var head = document.createElement("link")
-            link.href = "https://cdn.jsdelivr.net/gh/Thousandjs/bot@main/style.css"
-            link.rel = "stylesheet"
+            head.href = "https://cdn.jsdelivr.net/gh/Thousandjs/bot@74a5c47/style.css"
+            head.rel = "stylesheet"
+            document.head.appendChild(head)
         }
         primary();
         var sendMessage = function(font) {
