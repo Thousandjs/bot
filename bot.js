@@ -13,11 +13,11 @@
 
             }
             var head = document.createElement("link")
-            head.href = "https://cdn.jsdelivr.net/gh/Thousandjs/bot@74a5c47/style.css"
+            head.href = "https://cdn.jsdelivr.net/gh/Thousandjs/bot@7ab796f/style.css"
             head.rel = "stylesheet"
             document.head.appendChild(head)
         }
-        primary("n");
+        primary();
         var sendMessage = function(font) {
             var message = document.createElement("p")
             message.className = "user-lint"
