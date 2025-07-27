@@ -12,6 +12,7 @@
                 var container = document.createElement("div")
 
             }
+            container.style.display = "none";
             var head = document.createElement("link")
             head.href = "https://cdn.jsdelivr.net/gh/Thousandjs/bot@7ab796f/style.css"
             head.rel = "stylesheet"
