@@ -10,6 +10,7 @@ var messages = document.getElementById("messages-lint")
             link.href = "https://cdn.jsdelivr.net/gh/Thousandjs/bot@main/style.css"
             link.rel = "stylesheet"
         }
+        primary();
         var sendMessage = function(font) {
             var message = document.createElement("p")
             message.className = "user-lint"
